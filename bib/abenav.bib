@@ -1,0 +1,32 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Bibtex File for ABENAV Paper
+% 
+% HISTORY
+% 14.01.05  bbing  Created
+%
+
+
+
+@TechReport{newman02rangeslam,
+  author = 	 {Paul M. Newman and John J. Leonard},
+  title = 	 {Pure range-only subsea SLAM},
+  institution =  {MIT Marine Robotics Laboratory},
+  year = 	 {2002},
+  note = 	 {Submitted to the 2003 IEEE International Conference on Robotics and Automation},
+  annote = 	 { 
+
+- coorespondence between measurements and features is known
+- noisy data: median filtered (twice) off-line: `the data must be filtered'
+- bundle adjustment (from SFM) is just a big optimization using observation and continuity:  reminds me of the CRLB trick
+Assumes:
+- known vehicle and _beacon_ depth
+- no dvl (range-only)
+- small movement during TOF
+- uses Cauchy distribution
+this is very off-line
+- gives no guidance
+- dimilar to SLBL and SFM
+
+- the map this generates is ambiguious in X-Y and rotation!!!!
+}
+}
