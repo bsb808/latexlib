@@ -1383,21 +1383,20 @@ and Teo, Yong Meng},
   Volume                   = {6}
 }
 
-@InProceedings{dantes12auv,
-  Title                    = {AUV Control in the Diving Plane Subject to Waves},
-  Author                   = {João L.D. Dantas and Ettore A. de Barros and Jose J. da Cruz},
-  Year                     = {2012},
-  Note                     = {9th IFAC Conference on Manoeuvring and Control of Marine Craft},
-  Number                   = {27},
-  Pages                    = {319 - 324},
-  Volume                   = {45},
-
-  Abstract                 = {Underwater vehicles operating near of the sea surface are subject to wave disturbances in their motion, severely affecting the quality of bathymetric maps obtained. This paper describes a controller structure for compensating the wave disturbances in the vertical plane for a torpedo-like Autonomous Underwater Vehicle (AUV), based on a modified version of the LQG/LTR controller methodology with a wave filter. The proposed methodology uses additionally to the classic LQG/LTR design the measurement of non-controlled states, such as the pitch rate and heave velocity, in the control action. The wave disturbances were filtered away by a shaping filter fitted to the sea spectrum, and the sensors signals were integrated by a extended Kalman filter. The proposed control methodology was tested against the classical LQG/LTR controller in a six degrees of freedom non-linear AUV simulator, producing a better performance in most demanding conditions, like high wave crests.},
-  Doi                      = {https://doi.org/10.3182/20120919-3-IT-2046.00054},
-  ISSN                     = {1474-6670},
-  Journal                  = {IFAC Proceedings Volumes},
-  Keywords                 = {LQG/LTR Control, AUV, Wave rejection, Wave Filter},
-  Url                      = {http://www.sciencedirect.com/science/article/pii/S1474667016312484}
+@InProceedings{dantas12auv,
+  author   = {João L.D. Dantas and Ettore A. de Barros and Jose J. da Cruz},
+  title    = {AUV Control in the Diving Plane Subject to Waves},
+  year     = {2012},
+  volume   = {45},
+  number   = {27},
+  note     = {9th IFAC Conference on Manoeuvring and Control of Marine Craft},
+  pages    = {319 - 324},
+  doi      = {https://doi.org/10.3182/20120919-3-IT-2046.00054},
+  url      = {http://www.sciencedirect.com/science/article/pii/S1474667016312484},
+  abstract = {Underwater vehicles operating near of the sea surface are subject to wave disturbances in their motion, severely affecting the quality of bathymetric maps obtained. This paper describes a controller structure for compensating the wave disturbances in the vertical plane for a torpedo-like Autonomous Underwater Vehicle (AUV), based on a modified version of the LQG/LTR controller methodology with a wave filter. The proposed methodology uses additionally to the classic LQG/LTR design the measurement of non-controlled states, such as the pitch rate and heave velocity, in the control action. The wave disturbances were filtered away by a shaping filter fitted to the sea spectrum, and the sensors signals were integrated by a extended Kalman filter. The proposed control methodology was tested against the classical LQG/LTR controller in a six degrees of freedom non-linear AUV simulator, producing a better performance in most demanding conditions, like high wave crests.},
+  issn     = {1474-6670},
+  journal  = {IFAC Proceedings Volumes},
+  keywords = {LQG/LTR Control, AUV, Wave rejection, Wave Filter},
 }
 
 @Book{deb01moea,
@@ -6512,13 +6511,12 @@ Mitigating strategies for improving the controller performance are proposed and 
 }
 
 @Article{yang16approximate,
-  Title                    = {Approximate optimal tracking control for near-surface AUVs with wave disturbances},
-  Author                   = {Yang, Q., Su, H. \& Tang, G.},
-  Journal                  = {J. Ocean Univ. China},
-  Year                     = {2016},
-
-  Owner                    = {bsb},
-  Timestamp                = {2020.03.10}
+  author    = {Yang, Q. and Su, H. and Tang, G.},
+  title     = {Approximate optimal tracking control for near-surface AUVs with wave disturbances},
+  journal   = {J. Ocean Univ. China},
+  year      = {2016},
+  owner     = {bsb},
+  timestamp = {2020.03.10},
 }
 
 @Article{yarlagadda00gdop,
@@ -6819,14 +6817,26 @@ Mitigating strategies for improving the controller performance are proposed and 
   year      = {1995},
 }
 
-@Comment{jabref-meta: databaseType:biblatex;}
-
-@Comment{jabref-meta: grouping:
-0 AllEntriesGroup:;
-1 KeywordGroup:CPT\;0\;keywords\;cpt\;0\;0\;1\;\;\;\;;
-1 KeywordGroup:Science\;2\;keywords\;science\;0\;0\;1\;\;\;\;;
-2 KeywordGroup:seeps\;0\;keywords\;seeps\;0\;0\;1\;\;\;\;;
-2 KeywordGroup:archaeology\;0\;keywords\;archaeology\;0\;0\;1\;\;\;\;;
-1 StaticGroup:UWNav\;0\;1\;\;\;\;;
-2 StaticGroup:LBL\;0\;1\;\;\;\;;
+@Article{sonnenburg13modeling,
+  author  = {Sonnenburg, Christian R. and Woolsey, Craig A.},
+  title   = {Modeling, Identification, and Control of an Unmanned Surface Vehicle},
+  journal = {Journal of Field Robotics},
+  year    = {2013},
+  volume  = {30},
+  number  = {3},
+  pages   = {371--398},
+  issn    = {1556-4967},
+  doi     = {10.1002/rob.21452},
+  url     = {http://dx.doi.org/10.1002/rob.21452},
 }
+
+@TechReport{sonnenburg10control,
+  author      = {C. Sonnenburg and A. Gadre and D. Hornerand S. Krageland and A. Marcus and D. J. Stilwell and C. A. Woolsey},
+  title       = {CONTROL-ORIENTED PLANAR MOTION MODELING OF UNMANNED SURFACE VEHICLES},
+  institution = {Virginia Center for Autonomous Systems},
+  year        = {2010},
+  owner       = {bsb},
+  timestamp   = {2016.12.13},
+}
+
+@Comment{jabref-meta: databaseType:biblatex;}
